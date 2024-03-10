@@ -1,0 +1,16 @@
+
+# Thread Pool and Parallel Game of Life Implementation
+
+## Overview
+This repository contains my implementation of a thread pool and parallel Game of Life simulation. The project focuses on developing concurrent software solutions using synchronization techniques and parallel computing paradigms.
+
+## Features
+- **Thread Pool:** Implemented a thread pool design pattern for efficient task management.
+- **Parallel Game of Life:** Utilized the thread pool pattern for parallel computation of the Game of Life simulation.
+- **Synchronization Primitives:** Utilized semaphores, condition variables, and mutexes for coordinated communication between threads.
+
+## Files
+- `Semaphore.hpp` and `Semaphore.cpp`: Implementation of a basic semaphore using pthreads library.
+- `PCQueue.hpp` and `PCQueue.cpp`: Implementation of a Single-Producer, Multiple-Consumer queue.
+- `GameOfLife.cpp`: Implementation of the parallel Game of Life simulation utilizing the thread pool pattern.
+- Other supporting files and headers.
