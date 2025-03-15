@@ -1,5 +1,5 @@
 
-#include "Semaphore.hpp"
+#include "../include/Semaphore.hpp"
 
 Semaphore::Semaphore() {
     counter=0;
