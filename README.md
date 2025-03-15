@@ -72,9 +72,10 @@ Run the program using:
 │   ├── PCQueue.hpp
 │   ├── Headers.hpp           # Global headers (if needed)
 ├── 📂 input                  # Example input files
-│   ├── sample_matrix.txt
-├── 📂 assets                 # (Optional) Store images or GIFs for README
-│   ├── game_of_life.gif
+│   ├── big.txt
+│   ├── mid.txt
+│   ├── small.txt
+│   ├── tiny.txt
 ├── LICENSE                   # License file
 ├── Makefile                  # Makefile for compiling the project
 ├── README.md                 # Main project documentation
