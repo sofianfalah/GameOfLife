@@ -100,7 +100,7 @@ This project uses **thread pooling** for efficient parallel execution:
 ---
 
 ## 🏗 **Contributing**
-Want to improve this project? Feel free to fork & submit a PR!
+
 
 1. Clone the repository:
 ```bash
