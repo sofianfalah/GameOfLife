@@ -57,6 +57,7 @@ Run the program using:
 ---
 
 ## 📄 **Project Structure**
+```bash
 📂 GameOfLife
 ├── 📂 src                    # Source files (C++ implementation)
 │   ├── main.cpp              # Main driver file
@@ -78,7 +79,7 @@ Run the program using:
 ├── LICENSE                   # License file
 ├── Makefile                  # Makefile for compiling the project
 ├── README.md                 # Main project documentation
-
+```
 
 ---
 
