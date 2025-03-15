@@ -64,7 +64,6 @@ Run the program using:
 │   ├── Game.cpp              # Core logic for game execution
 │   ├── Semaphore.cpp         # Semaphore implementation
 │   ├── utils.cpp             # Utility functions
-│   ├── Synchronization.cpp   # Mutex & condition variable handling (if applicable)
 ├── 📂 include                # Header files
 │   ├── Game.hpp
 │   ├── Semaphore.hpp
