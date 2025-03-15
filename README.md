@@ -57,24 +57,28 @@ Run the program using:
 ---
 
 ## 📄 **Project Structure**
-```bash
 📂 GameOfLife
-├── src
-│   ├── main.cpp          # Main driver file
-│   ├── Game.cpp          # Core logic for game execution
-│   ├── ThreadPool.cpp    # Thread pool implementation
-│   ├── Synchronization.cpp # Mutex & condition variable handling
-│   ├── Utils.cpp         # Helper functions (e.g., parsing input)
-├── include
+├── 📂 src                    # Source files (C++ implementation)
+│   ├── main.cpp              # Main driver file
+│   ├── Game.cpp              # Core logic for game execution
+│   ├── Semaphore.cpp         # Semaphore implementation
+│   ├── utils.cpp             # Utility functions
+│   ├── Synchronization.cpp   # Mutex & condition variable handling (if applicable)
+├── 📂 include                # Header files
 │   ├── Game.hpp
-│   ├── ThreadPool.hpp
-│   ├── Synchronization.hpp
-│   ├── Utils.hpp
-├── input
-│   ├── sample_matrix.txt # Example input file
-├── Makefile
-└── README.md
-```
+│   ├── Semaphore.hpp
+│   ├── utils.hpp
+│   ├── Thread.hpp
+│   ├── PCQueue.hpp
+│   ├── Headers.hpp           # Global headers (if needed)
+├── 📂 input                  # Example input files
+│   ├── sample_matrix.txt
+├── 📂 assets                 # (Optional) Store images or GIFs for README
+│   ├── game_of_life.gif
+├── LICENSE                   # License file
+├── Makefile                  # Makefile for compiling the project
+├── README.md                 # Main project documentation
+
 
 ---
 
